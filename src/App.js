@@ -6,6 +6,13 @@ function App() {
   return(
     <div>
      <h1 title="This is the heading">Heading -JSX Method</h1>
+     <p id="para1">This is the paragraph</p>
+     <p className="para2">Second paragraph</p>
+     <div>
+       <label htmlFor="input1">Data</label> 
+       <br ></br>
+       <input id="input1" name="input1"></input>
+     </div>
     </div>
   )
 
