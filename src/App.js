@@ -2,10 +2,15 @@ import React from 'react';
 
 function App() {
   //JSX method
+  var style1 = {
+    color: "blue",
+    fontSize: 30,
+    backgroundColor:"yellow"
+  }
 
   return(
     <div>
-     <h1 title="This is the heading">Heading -JSX Method</h1>
+     <h1 style={style1} title="This is the heading">Heading -JSX Method</h1>
      <p id="para1">This is the paragraph</p>
      <p className="para2">Second paragraph</p>
      <div>
