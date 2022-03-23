@@ -10,6 +10,14 @@ function App() {
   var var1 = "Hello WOrld";
   var var2 = 12 / 1;
   var var3 = 33 / 32;
+
+  var fun1 = function fun1() {
+    console.log("Some Kind of Function");
+  };
+
+  var func2 = function func2() {
+    console.log("New type of Function");
+  };
   return (
     <div>
       <h1 style={style1} title="This is the heading">
@@ -27,6 +35,8 @@ function App() {
         <br></br>
         <input id="input1" name="input1"></input>
       </div>
+      <button onClick={fun1}>Click me!</button>
+      <button onMouseEnter={func2}>Click me oga</button>
     </div>
   );
 
